@@ -7,6 +7,11 @@ Catch all mail and display it in roundcube interface.
 ## Start Mailtrap
 
     $ docker run -d --name=mailtrap -p 80:80 eaudeweb/mailtrap
+    
+## Install Telent on your Alpin
+
+    $ apk update
+    $ apk add busybox-extras
 
 ## Send email
 
